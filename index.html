@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <style>
+        body{
+            background: rgba(0, 128, 122, 0.3);
+            background-position: center;
+        }
+        .box{
+            width: 350px;
+            height: 350px;
+            background-color: rgb(213, 240, 236);
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+           
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 15px;
+        }
+
+        .center{
+            text-align: center;
+            padding: 15px;
+        }
+        .ip{
+            border:none;
+            font-size: 15px;
+            text-align: center;
+            width:80%;
+            height:40px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+        }
+        .log{
+            border: none;
+            padding: 10px;
+            
+            background-color: rgb(12, 108, 199);
+
+            color: white;
+            border-radius: 20px;
+            width: 50%;
+        }
+        .log:hover{
+            background-color: rgba(6, 33, 59, 0.993);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="center">
+
+            <img src="user (2).png" alt="user" height="60px">
+            <br>
+            <br>
+            <input type="text" name="name" placeholder="Enter your Name" class="ip">
+            <br>
+            <br>
+            <input type="password" name="password" placeholder="Enter your password" class="ip">
+            <br>
+            <br>
+            <br>
+            <input type="button" value="Login" class="log">
+        </div>
+
+    </div>
+</body>
+</html>
